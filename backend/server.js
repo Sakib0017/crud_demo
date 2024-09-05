@@ -16,6 +16,6 @@ app.use('/api',routers)
 
 
 
-app.listen(process.env.PORT,()=>{
+app.listen(8000,()=>{
     console.log('server is running')
 })
